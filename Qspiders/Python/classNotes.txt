@@ -1,0 +1,85 @@
+###Python installation
+
+python.org
+Downloads > Windows > Python 3.6.7 > Download windows x86 executable installer > Double click on the installer and click on run > Check add python path (check box) 
+
+
+### Architecture
+1. Hardware
+2. Kernel
+3. Shell
+4. Application
+5. User data
+
+Kernel - It has some predefined compilers OR it is a collection of compilers, Which is responsible for the interaction between harware and the user
+		 To make python to work we need to add interpreter at kernel
+		 
+Types of compilers 
+		1. Compiler - Compiler which converts whole program at a time or at once 
+		2. Interpreter - Which converts the code line by line 
+
+*** Pyton makes use of interpreter
+
+Python editors
+	IDE - Integrated Development Environement
+	IDLE -  Integrated Development and Learning Environement
+
+	Python use IDLE
+	
+Memory -  Memory is a place where the data is stored, It is divided into blocks where the blocks can contain bits of data or bytes of data
+Variable-  Variables is the named memory location 
+		* Each and every variable can store value or the address
+		
+ SYNTAX to define a variables ---  VariableName = Value
+ 
+ Exampes of variable a=10 , b=1 
+ 
+ If more than one value is stored then it is stored as a "TUPLE" example a=1,2,3
+ 
+Identifiers -- The variable name is known as identifier which identifies the memory
+
+Rules to define Identifiers 
+	Identifiers must always start with the character or underscore (_)
+	It can be a combination of alphabet and numbers (but should never start with number)
+	Identifier cannot be a numeric value because one integer value cannot define another integer value
+	Idnetifiers should not start with/contain special characters except _
+	Keywords cannot be used as identifiers
+
+	bad syntax  examples 1=20; a@b=211; if=12
+	
+	
+Keywords -  they are the reserved words which has some predefined meaning
+import keyword
+IDLE>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+Data Type -- Data type which specifies the type of data to be stored and also which is used to convert the data from one data type to another data type  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
